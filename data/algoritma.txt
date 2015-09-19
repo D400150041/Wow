@@ -1,0 +1,17 @@
+input (A,B,C)
+   if A==0 then
+     write (' Bukan Persamaan Kuadrat ')
+ else
+     D=(B*B)-(4*A*C)
+   if D>0 then
+     X1 = (-B+sqrt(B^2)-(4*A*C)/(2*A))
+     X1 = (-B-sqrt(B^2)-(4*A*C)/(2*A))
+  output (X1,X2)
+ else if D==0 then
+     X = -B/2*a
+  output (X)
+ else
+  output (X1,X2)
+  endif
+ endif
+endif
